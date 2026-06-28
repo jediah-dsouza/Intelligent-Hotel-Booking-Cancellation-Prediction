@@ -87,13 +87,11 @@ Numerical features are scaled with `StandardScaler` (used for Logistic Regressio
 
 | Model | Accuracy | Precision | Recall | F1-Score | AUC | Training Time (s) |
 |-------|----------|-----------|--------|----------|-----|-------------------|
-| Logistic Regression | — | — | — | — | — | — |
-| Decision Tree | — | — | — | — | — | — |
-| SVM (RBF) | — | — | — | — | — | — |
-| Random Forest | — | — | — | — | — | — |
-| Gradient Boosting | — | — | — | — | — | — |
-
-> **Note:** Run `python main.py` to populate this table with actual values.
+| Logistic Regression | 0.8103 | 0.8295 | 0.9035 | 0.8649 | 0.8617 | 0.1983 |
+| Decision Tree | 0.8617 | 0.9026 | 0.8903 | 0.8964 | 0.8500 | 0.1391 |
+| SVM (RBF) | 0.8289 | 0.8315 | 0.9367 | 0.8810 | 0.8796 | 155.9238 |
+| Random Forest | 0.8946 | 0.9085 | 0.9377 | 0.9228 | 0.9483 | 3.2786 |
+| Gradient Boosting | 0.8543 | 0.8636 | 0.9303 | 0.8957 | 0.9087 | 3.6416 |
 
 ### Visualizations
 
